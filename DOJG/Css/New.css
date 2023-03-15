@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Font';
+    src: url(Font/Font.ttf);
+}
+body {
+    font-family: 'Font', sans-serif;
+    background-color: rgb(219, 159, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(25%);
+}
+.Download {
+    color: blueviolet;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 10px 10px 25px #000;
+}
+.Color-Yellow{
+    color: yellow;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 10px 10px 25px #000;
+}
+.Web {
+    text-decoration: none; 
+    color:  #5f5f5f;
+}

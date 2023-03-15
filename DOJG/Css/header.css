@@ -1,0 +1,43 @@
+.a { text-decoration: none;}
+.img { max-width: 1000%;}
+.Logo 
+{ width: 200px; margin-top: 10px;}
+.onlynav {
+   display: flex;
+   list-style:none;
+}
+.onlynav li { margin-left: 20px;}
+.onlynav a:hover { color: yellow;}
+.Header {
+    display: flex;
+    justify-content: space-between; 
+}
+.Header-warp { padding: 0 5%; }
+
+.Webcontent { 
+    text-align: center;
+    margin-top: 10%;
+}
+.Webcontent p { margin: 10px 0 40px;}
+.Webtitle { font-size:5rem }
+.Button {
+    font-size: 2rem;
+    background: blueviolet;
+    color: white;
+    padding: 20px 30px;
+}
+.Button:hover {
+    background: chocolate;
+}
+.Size {
+    font-size: 2rem;
+}
+.BackGround {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#home {
+    background-image: url(BackGround.webp);
+    min-height: 100vh;
+}

@@ -1,0 +1,20 @@
+main {
+    background-image: url(Image/BackGround.webp), linear-gradient(to top right , red, yellow 30%, green);
+}
+footer {
+    text-align: center;
+    background: lightgreen;
+    padding: 3px 0;
+}
+footer p {
+    color: blue;
+    font-size: 1rem;
+}
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.author, .booktitle { text-align: center; }
